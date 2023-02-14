@@ -1,0 +1,25 @@
+.div1 {
+    background-image: url(apple-pie/images/apple-pie.jpg);
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    width: 500px;
+    margin: 0 auto;
+}
+div {
+    text-align: center;
+}
+.listwithnonumber {
+    list-style-type: "-";
+}
+#directionlist {
+    list-style: none;
+}
+#directionlist > li {
+    counter-increment: listcounter;
+}
+#directionlist > li::before {
+    content: counter(listcounter);
+}
