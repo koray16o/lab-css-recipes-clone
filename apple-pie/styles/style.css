@@ -1,25 +1,33 @@
 .div1 {
-    background-image: url(apple-pie/images/apple-pie.jpg);
+  background-image: url(apple-pie/images/apple-pie.jpg);
+  text-align: center;
 }
 
 h1 {
-    color: white;
-    text-align: center;
-    width: 500px;
-    margin: 0 auto;
-}
-div {
-    text-align: center;
+  color: white;
+  text-align: center;
+  width: 500px;
+  margin: 0 auto;
 }
 .listwithnonumber {
-    list-style-type: "-";
+  list-style-type: '-';
 }
 #directionlist {
-    list-style: none;
+  list-style: none;
 }
 #directionlist > li {
-    counter-increment: listcounter;
+  counter-increment: listcounter;
 }
 #directionlist > li::before {
-    content: counter(listcounter);
+  content: counter(listcounter) ')';
+}
+.appleImg {
+  width: 900px;
+  height: 600px;
+}
+.recipeImg {
+  width: 300px;
+}
+.cookingImg {
+  width: 300px;
 }
